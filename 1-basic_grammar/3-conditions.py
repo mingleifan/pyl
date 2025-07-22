@@ -36,4 +36,3 @@ elif bmi_val < 18.5:
     print('过轻')
 else:
     print('error')
-

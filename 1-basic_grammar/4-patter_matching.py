@@ -30,7 +30,7 @@ match args:
     case ['gcc']:
         print('gcc: missing source file(s).')
         # 出现gcc，且至少指定了一个文件:
-    case['gcc', file1, *files]:
+    case ['gcc', file1, *files]:
         print('gcc compile: ' + file1 + '; ' + ', '.join(files))
     case ['clean']:
         print('clean')

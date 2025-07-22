@@ -1,11 +1,11 @@
 print("------- dict -------")
 d = {'Michal': 90, 'Rango': 99, 'Bob': 78}
 print(d)
-#设置值
+# 设置值
 d['Lisa'] = 66
 print(d)
 # var = d['Tomas']
-var = d.get('Tomas', 0) # get or default
+var = d.get('Tomas', 0)  # get or default
 print(var)
 bobV = d.pop('Bob')
 print(bobV)

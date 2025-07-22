@@ -84,7 +84,7 @@ print('%2d-%02d' % (3, 1))
 print('%.2f' % 3.1415926)
 
 print('--------learn format()--------')
-#{1:.1f}：取 .format() 中的第 2 个参数，保留 1 位小数输出
+# {1:.1f}：取 .format() 中的第 2 个参数，保留 1 位小数输出
 formatStr_4 = 'Hello, {0}, 成绩提升了 {1:.1f}%'.format('fml', 7)
 print(formatStr_4)
 
