@@ -1,3 +1,5 @@
+import logging
+
 print('-------- type() --------')
 
 
@@ -10,7 +12,9 @@ h = Hello()
 # 这里我们把函数fn绑定到方法名hello上
 h.hel()
 
-
 print('-------- metaclass(元类) --------')
 
 # feature learn....
+logging.basicConfig(level=logging.INFO)
+
+logging.info('hello')
